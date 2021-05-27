@@ -1158,6 +1158,7 @@ form textarea {
 
 .logo{
   width: 180px;
+  
 }
 
 .right-section{
@@ -1181,13 +1182,18 @@ form textarea {
 @media screen and (max-width: 640px) {
   .right-section .mail {
     display: none; 
-  } }
+    
+  } 
+  .right-section .phone img {
+    display: none;
+  }
+}
 .right-section .phone img {
   vertical-align: middle; }
 .right-section .search-form {
   margin: 10px 0;
   margin-left: 20px; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width:560px) {
     .right-section .search-form {
       display: none; } }
   .right-section .search-form input {
@@ -1210,7 +1216,7 @@ form textarea {
     outline: none; }
     @media screen and (max-width: 990px) {
       .main-navigation .menu-toggle {
-        display: block; } }
+        display: none; } }
     @media screen and (min-width: 991px) {
       .main-navigation .menu-toggle {
         display: none; } }
@@ -1404,7 +1410,7 @@ form textarea {
 .container iframe{
   justify-content: center;
   width: 100vw;
-  max-width: 500px;
+  max-width: 450px;
   background-color: #000;
   padding: 20px;
   border: 5px solid #C79154;
